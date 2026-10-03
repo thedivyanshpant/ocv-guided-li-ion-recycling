@@ -1,0 +1,42 @@
+&CONTROL
+   calculation      = 'scf'
+   prefix           = 'li_bulk'
+   outdir           = './tmp/'
+   pseudo_dir       = './pseudo/'
+   tstress          = .true.
+   tprnfor          = .true.
+   disk_io          = 'low'
+/
+
+&SYSTEM
+   ibrav            = 0
+   nat              = 2
+   ntyp             = 1
+
+   ecutwfc          = 60
+   ecutrho          = 480
+
+   occupations      = 'smearing'
+   smearing         = 'mv'
+   degauss          = 0.02
+/
+
+&ELECTRONS
+   conv_thr         = 1.0d-8
+   mixing_beta      = 0.30
+/
+
+ATOMIC_SPECIES
+Li 6.94 li_pbe_v1.4.uspp.F.UPF
+
+K_POINTS automatic
+20 20 20 0 0 0
+
+CELL_PARAMETERS angstrom
+3.43931245000000 0.00000000000000 0.00000000000000
+0.00000000000000 3.43931245000000 0.00000000000000
+0.00000000000000 0.00000000000000 3.43931245000000
+
+ATOMIC_POSITIONS angstrom
+Li 0.0000000000 0.0000000000 0.0000000000
+Li 1.7196562250 1.7196562250 1.7196562250

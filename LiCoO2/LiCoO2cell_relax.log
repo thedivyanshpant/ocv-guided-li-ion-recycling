@@ -1,0 +1,25 @@
+==========================================
+SLURM_CLUSTER_NAME = paramprabha
+SLURM_JOB_ACCOUNT = iuac
+SLURM_JOB_ID = 587866
+SLURM_JOB_NAME = LiCoO2_relax
+SLURM_JOB_NODELIST = rpcn[237,249]
+SLURM_JOB_USER = deepanthpcu
+SLURM_JOB_UID = 52588
+SLURM_JOB_PARTITION = standard
+SLURM_TASK_PID = 167649
+SLURM_SUBMIT_DIR = /home/deepanthpcu/DFT/Battery/LiCoO2
+SLURM_CPUS_ON_NODE = 48
+SLURM_NTASKS = 96
+SLURM_TASK_PID = 167649
+==========================================
+======================================
+Job ID      : 587866
+Nodes       : 2
+MPI Tasks   : 96
+Directory   : /home/deepanthpcu/DFT/Battery/LiCoO2
+======================================
+/home/apps/SourceApps/qe/qe-intel-7.4/bin/pw.x
+======================================
+Finished at Thu Jul 23 14:49:21 IST 2026
+======================================

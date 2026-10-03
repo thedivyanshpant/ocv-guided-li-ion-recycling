@@ -1,0 +1,19 @@
+# Quantum ESPRESSO pseudopotentials
+*.upf
+*.UPF
+
+# Quantum ESPRESSO temporary/restart data
+tmp/
+*.save/
+
+# Python environments/cache
+.venv/
+__pycache__/
+*.pyc
+
+# OS/editor files
+.DS_Store
+
+# Temporary/editor files
+.~lock.*
+*.cjson-*

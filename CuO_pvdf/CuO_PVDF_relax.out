@@ -1,0 +1,369 @@
+
+     Program PWSCF v.7.4 starts on 29Aug2026 at 22:45:32 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI & OpenMP), running on      96 processor cores
+     Number of MPI processes:                96
+     Threads/MPI process:                     1
+
+     MPI processes distributed on     2 nodes
+     179685 MiB available memory on the printing compute node when the environment starts
+ 
+     Reading input from CuO_PVDF_relax.in
+
+     Current dimensions of program PWSCF are:
+     Max number of different atomic species (ntypx) = 10
+     Max number of k-points (npk) =  40000
+     Max angular momentum in pseudopotentials (lmaxx) =  4
+     file Cu.paw.z_11.ld1.psl.v1.0.0-low.upf: wavefunction(s)  4S 3D renormalized
+     file O.pbe-n-kjpaw_psl.0.1.UPF: wavefunction(s)  2P renormalized
+     file C.pbe-n-kjpaw_psl.1.0.0.UPF: wavefunction(s)  2S 2P renormalized
+ 
+     R & G space division:  proc/nbgrp/npool/nimage =      96
+     Subspace diagonalization in iterative solution of the eigenvalue problem:
+     one sub-group per band group will be used
+     scalapack distributed-memory algorithm (size of sub-group:  7*  7 procs)
+
+ 
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min         172      86     22                70104    24774    3340
+     Max         173      87     23                70113    24798    3375
+     Sum       16549    8267   2181              6730611  2379325  322357
+ 
+     Using Slab Decomposition
+ 
+
+
+     bravais-lattice index     =            0
+     lattice parameter (alat)  =      22.2149  a.u.
+     unit-cell volume          =   37901.4236 (a.u.)^3
+     number of atoms/cell      =          142
+     number of atomic types    =            5
+     number of electrons       =      1138.00
+     number of Kohn-Sham states=          683
+     kinetic-energy cutoff     =      60.0000  Ry
+     charge density cutoff     =     480.0000  Ry
+     scf convergence threshold =      1.0E-08
+     mixing beta               =       0.2000
+     number of iterations used =            8  local-TF  mixing
+     energy convergence thresh.=      1.0E-04
+     force convergence thresh. =      1.0E-03
+     Exchange-correlation=  SLA  PW   PBX  PBC
+                           (   1   4   3   4   0   0   0)
+     nstep                     =           50
+
+
+     celldm(1)=  22.214885  celldm(2)=   0.000000  celldm(3)=   0.000000
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (   1.000000   0.000000   0.000000 )  
+               a(2) = (   0.027717   0.877564   0.000000 )  
+               a(3) = (   0.000000   0.000000   3.939531 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  1.000000 -0.031584  0.000000 )  
+               b(2) = (  0.000000  1.139518  0.000000 )  
+               b(3) = (  0.000000  0.000000  0.253837 )  
+
+
+     PseudoPot. # 1 for Cu read from file:
+     ./pseudo/Cu.paw.z_11.ld1.psl.v1.0.0-low.upf
+     MD5 check sum: 619f40885d92a09a85a8b37550532d0c
+     Pseudo is Projector augmented-wave + core cor, Zval = 11.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3MaX
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1199 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 2 for O  read from file:
+     ./pseudo/O.pbe-n-kjpaw_psl.0.1.UPF
+     MD5 check sum: 0234752ac141de4415c5fc33072bef88
+     Pseudo is Projector augmented-wave + core cor, Zval =  6.0
+     Generated using "atomic" code by A. Dal Corso  v.5.0.99 svn rev. 10869
+     Shape of augmentation charge: BESSEL
+     Using radial grid of 1095 points,  4 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 3 for C  read from file:
+     ./pseudo/C.pbe-n-kjpaw_psl.1.0.0.UPF
+     MD5 check sum: 5d2aebdfa2cae82b50a7e79e9516da0f
+     Pseudo is Projector augmented-wave + core cor, Zval =  4.0
+     Generated using "atomic" code by A. Dal Corso  v.5.1
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1073 points,  4 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 4 for H  read from file:
+     ./pseudo/H.pbe-rrkjus_psl.1.0.0.UPF
+     MD5 check sum: f52b6d4d1c606e5624b1dc7b2218f220
+     Pseudo is Ultrasoft, Zval =  1.0
+     Generated using "atomic" code by A. Dal Corso  v.5.1
+     Using radial grid of  929 points,  2 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 5 for F  read from file:
+     ./pseudo/f_pbe_v1.4.uspp.F.UPF
+     MD5 check sum: 4c38b6a325caf53ec0e86aed9459de46
+     Pseudo is Ultrasoft, Zval =  7.0
+     Generated by new atomic code, or converted to UPF format
+     Using radial grid of  799 points,  4 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+     Q(r) pseudized with  8 coefficients,  rinner =    0.950   0.950   0.950
+
+
+     atomic species   valence    mass     pseudopotential
+     Cu               11.00    63.54600     Cu( 1.00)
+     O                 6.00    15.99900     O ( 1.00)
+     C                 4.00    12.01100     C ( 1.00)
+     H                 1.00     1.00800     H ( 1.00)
+     F                 7.00    18.99840     F ( 1.00)
+
+     Starting magnetic structure 
+     atomic species   magnetization
+     Cu              0.500
+     O               0.000
+     C               0.000
+     H               0.000
+     F               0.000
+
+     No symmetry found
+
+
+
+   Cartesian axes
+
+     site n.     atom                  positions (alat units)
+         1        Cu     tau(   1) = (   0.1319291   0.2193909   1.5311837  )
+         2        Cu     tau(   2) = (   0.2556710   0.0037688   1.6559981  )
+         3        Cu     tau(   3) = (   0.3819291   0.2193909   1.5311837  )
+         4        Cu     tau(   4) = (   0.0056710   0.0037688   1.6559981  )
+         5        O      tau(   5) = (   0.3808249   0.1135689   1.6594610  )
+         6        O      tau(   6) = (   0.3943753   0.3327507   1.6525353  )
+         7        O      tau(   7) = (   0.1308249   0.1135689   1.6594610  )
+         8        O      tau(   8) = (   0.1443753   0.3327507   1.6525353  )
+         9        Cu     tau(   9) = (   0.3932711   0.2269286   1.7808125  )
+        10        Cu     tau(  10) = (   0.0170129   0.0113065   1.9056269  )
+        11        Cu     tau(  11) = (   0.1432711   0.2269286   1.7808125  )
+        12        Cu     tau(  12) = (   0.2670129   0.0113065   1.9056269  )
+        13        O      tau(  13) = (   0.1421668   0.1211065   1.9090898  )
+        14        O      tau(  14) = (   0.1557173   0.3402883   1.9021641  )
+        15        O      tau(  15) = (   0.3921668   0.1211065   1.9090898  )
+        16        O      tau(  16) = (   0.4057173   0.3402883   1.9021641  )
+        17        Cu     tau(  17) = (   0.1547097   0.2349144   2.0303489  )
+        18        Cu     tau(  18) = (   0.2783441   0.0188100   2.1552641  )
+        19        Cu     tau(  19) = (   0.4047092   0.2349145   2.0303492  )
+        20        Cu     tau(  20) = (   0.0283439   0.0188095   2.1552642  )
+        21        O      tau(  21) = (   0.4041188   0.1300383   2.1574786  )
+        22        O      tau(  22) = (   0.4165686   0.3464689   2.1529282  )
+        23        O      tau(  23) = (   0.1541184   0.1300385   2.1574785  )
+        24        O      tau(  24) = (   0.1665685   0.3464687   2.1529280  )
+        25        Cu     tau(  25) = (   0.4150527   0.2408806   2.2839542  )
+        26        Cu     tau(  26) = (   0.0369408   0.0235721   2.3912661  )
+        27        Cu     tau(  27) = (   0.1650526   0.2408806   2.2839541  )
+        28        Cu     tau(  28) = (   0.2869408   0.0235722   2.3912661  )
+        29        O      tau(  29) = (   0.1622444   0.1263169   2.3965739  )
+        30        O      tau(  30) = (   0.1752785   0.3596857   2.3923599  )
+        31        O      tau(  31) = (   0.4122445   0.1263169   2.3965739  )
+        32        O      tau(  32) = (   0.4252787   0.3596858   2.3923599  )
+        33        Cu     tau(  33) = (   0.1457874   0.6581728   1.5311837  )
+        34        Cu     tau(  34) = (   0.2695292   0.4425507   1.6559981  )
+        35        Cu     tau(  35) = (   0.3957874   0.6581728   1.5311837  )
+        36        Cu     tau(  36) = (   0.0195292   0.4425507   1.6559981  )
+        37        O      tau(  37) = (   0.3946831   0.5523507   1.6594610  )
+        38        O      tau(  38) = (   0.4082336   0.7715325   1.6525353  )
+        39        O      tau(  39) = (   0.1446831   0.5523507   1.6594610  )
+        40        O      tau(  40) = (   0.1582336   0.7715325   1.6525353  )
+        41        Cu     tau(  41) = (   0.4071293   0.6657105   1.7808125  )
+        42        Cu     tau(  42) = (   0.0308712   0.4500884   1.9056269  )
+        43        Cu     tau(  43) = (   0.1571294   0.6657105   1.7808125  )
+        44        Cu     tau(  44) = (   0.2808712   0.4500884   1.9056269  )
+        45        O      tau(  45) = (   0.1560251   0.5598884   1.9090898  )
+        46        O      tau(  46) = (   0.1695756   0.7790702   1.9021641  )
+        47        O      tau(  47) = (   0.4060251   0.5598884   1.9090898  )
+        48        O      tau(  48) = (   0.4195756   0.7790702   1.9021641  )
+        49        Cu     tau(  49) = (   0.1685678   0.6736963   2.0303504  )
+        50        Cu     tau(  50) = (   0.2922023   0.4575903   2.1552642  )
+        51        Cu     tau(  51) = (   0.4185682   0.6736963   2.0303501  )
+        52        Cu     tau(  52) = (   0.0422025   0.4575909   2.1552641  )
+        53        O      tau(  53) = (   0.4179765   0.5688196   2.1574793  )
+        54        O      tau(  54) = (   0.4304268   0.7852516   2.1529287  )
+        55        O      tau(  55) = (   0.1679770   0.5688194   2.1574794  )
+        56        O      tau(  56) = (   0.1804269   0.7852518   2.1529288  )
+        57        Cu     tau(  57) = (   0.4289108   0.6796626   2.2839547  )
+        58        Cu     tau(  58) = (   0.0507990   0.4623538   2.3912661  )
+        59        Cu     tau(  59) = (   0.1789110   0.6796625   2.2839547  )
+        60        Cu     tau(  60) = (   0.3007990   0.4623536   2.3912660  )
+        61        O      tau(  61) = (   0.1761028   0.5650985   2.3965742  )
+        62        O      tau(  62) = (   0.1891369   0.7984679   2.3923603  )
+        63        O      tau(  63) = (   0.4261026   0.5650985   2.3965743  )
+        64        O      tau(  64) = (   0.4391367   0.7984679   2.3923603  )
+        65        Cu     tau(  65) = (   0.6319291   0.2193909   1.5311837  )
+        66        Cu     tau(  66) = (   0.7556710   0.0037688   1.6559981  )
+        67        Cu     tau(  67) = (   0.8819291   0.2193909   1.5311837  )
+        68        Cu     tau(  68) = (   0.5056710   0.0037688   1.6559981  )
+        69        O      tau(  69) = (   0.8808249   0.1135689   1.6594610  )
+        70        O      tau(  70) = (   0.8943753   0.3327507   1.6525353  )
+        71        O      tau(  71) = (   0.6308249   0.1135689   1.6594610  )
+        72        O      tau(  72) = (   0.6443753   0.3327507   1.6525353  )
+        73        Cu     tau(  73) = (   0.8932711   0.2269286   1.7808125  )
+        74        Cu     tau(  74) = (   0.5170129   0.0113065   1.9056269  )
+        75        Cu     tau(  75) = (   0.6432711   0.2269286   1.7808125  )
+        76        Cu     tau(  76) = (   0.7670129   0.0113065   1.9056269  )
+        77        O      tau(  77) = (   0.6421668   0.1211065   1.9090898  )
+        78        O      tau(  78) = (   0.6557173   0.3402883   1.9021641  )
+        79        O      tau(  79) = (   0.8921668   0.1211065   1.9090898  )
+        80        O      tau(  80) = (   0.9057173   0.3402883   1.9021641  )
+        81        Cu     tau(  81) = (   0.6547095   0.2349145   2.0303506  )
+        82        Cu     tau(  82) = (   0.7783440   0.0188087   2.1552642  )
+        83        Cu     tau(  83) = (   0.9047100   0.2349144   2.0303503  )
+        84        Cu     tau(  84) = (   0.5283442   0.0188092   2.1552641  )
+        85        O      tau(  85) = (   0.9041183   0.1300378   2.1574792  )
+        86        O      tau(  86) = (   0.9165685   0.3464696   2.1529286  )
+        87        O      tau(  87) = (   0.6541187   0.1300376   2.1574793  )
+        88        O      tau(  88) = (   0.6665686   0.3464699   2.1529287  )
+        89        Cu     tau(  89) = (   0.9150526   0.2408807   2.2839546  )
+        90        Cu     tau(  90) = (   0.5369408   0.0235720   2.3912661  )
+        91        Cu     tau(  91) = (   0.6650528   0.2408807   2.2839547  )
+        92        Cu     tau(  92) = (   0.7869408   0.0235718   2.3912660  )
+        93        O      tau(  93) = (   0.6622445   0.1263166   2.3965741  )
+        94        O      tau(  94) = (   0.6752787   0.3596861   2.3923602  )
+        95        O      tau(  95) = (   0.9122443   0.1263166   2.3965742  )
+        96        O      tau(  96) = (   0.9252785   0.3596860   2.3923602  )
+        97        Cu     tau(  97) = (   0.6457874   0.6581728   1.5311837  )
+        98        Cu     tau(  98) = (   0.7695292   0.4425507   1.6559981  )
+        99        Cu     tau(  99) = (   0.8957874   0.6581728   1.5311837  )
+       100        Cu     tau( 100) = (   0.5195292   0.4425507   1.6559981  )
+       101        O      tau( 101) = (   0.8946831   0.5523507   1.6594610  )
+       102        O      tau( 102) = (   0.9082336   0.7715325   1.6525353  )
+       103        O      tau( 103) = (   0.6446831   0.5523507   1.6594610  )
+       104        O      tau( 104) = (   0.6582336   0.7715325   1.6525353  )
+       105        Cu     tau( 105) = (   0.9071293   0.6657105   1.7808125  )
+       106        Cu     tau( 106) = (   0.5308712   0.4500884   1.9056269  )
+       107        Cu     tau( 107) = (   0.6571293   0.6657105   1.7808125  )
+       108        Cu     tau( 108) = (   0.7808712   0.4500884   1.9056269  )
+       109        O      tau( 109) = (   0.6560251   0.5598884   1.9090898  )
+       110        O      tau( 110) = (   0.6695756   0.7790702   1.9021641  )
+       111        O      tau( 111) = (   0.9060251   0.5598884   1.9090898  )
+       112        O      tau( 112) = (   0.9195756   0.7790702   1.9021641  )
+       113        Cu     tau( 113) = (   0.6685679   0.6736962   2.0303488  )
+       114        Cu     tau( 114) = (   0.7922024   0.4575917   2.1552641  )
+       115        Cu     tau( 115) = (   0.9185675   0.6736963   2.0303491  )
+       116        Cu     tau( 116) = (   0.5422022   0.4575912   2.1552642  )
+       117        O      tau( 117) = (   0.9179771   0.5688202   2.1574787  )
+       118        O      tau( 118) = (   0.9304269   0.7852508   2.1529283  )
+       119        O      tau( 119) = (   0.6679766   0.5688204   2.1574786  )
+       120        O      tau( 120) = (   0.6804268   0.7852506   2.1529282  )
+       121        Cu     tau( 121) = (   0.9289110   0.6796625   2.2839542  )
+       122        Cu     tau( 122) = (   0.5507991   0.4623539   2.3912661  )
+       123        Cu     tau( 123) = (   0.6789108   0.6796625   2.2839542  )
+       124        Cu     tau( 124) = (   0.8007991   0.4623541   2.3912661  )
+       125        O      tau( 125) = (   0.6761026   0.5650988   2.3965741  )
+       126        O      tau( 126) = (   0.6891367   0.7984676   2.3923600  )
+       127        O      tau( 127) = (   0.9261028   0.5650988   2.3965740  )
+       128        O      tau( 128) = (   0.9391370   0.7984677   2.3923600  )
+       129        C      tau( 129) = (   0.3317203   0.4324554   2.7732237  )
+       130        C      tau( 130) = (   0.4473677   0.4488268   2.7190012  )
+       131        H      tau( 131) = (   0.2660637   0.4489826   2.7090623  )
+       132        H      tau( 132) = (   0.3226327   0.3449459   2.8042812  )
+       133        H      tau( 133) = (   0.3205286   0.4919260   2.8442511  )
+       134        C      tau( 134) = (   0.5474761   0.4293761   2.7999282  )
+       135        F      tau( 135) = (   0.4560099   0.3756886   2.6262518  )
+       136        H      tau( 136) = (   0.5399408   0.3432282   2.8355960  )
+       137        C      tau( 137) = (   0.6678234   0.4411578   2.7537399  )
+       138        F      tau( 138) = (   0.4527472   0.5585795   2.6747102  )
+       139        H      tau( 139) = (   0.5391024   0.4893572   2.8712294  )
+       140        F      tau( 140) = (   0.6876603   0.5482458   2.7096922  )
+       141        F      tau( 141) = (   0.6896505   0.3635294   2.6682592  )
+       142        H      tau( 142) = (   0.7312765   0.4266487   2.8213091  )
+
+     number of k points=    10  Marzari-Vanderbilt smearing, width (Ry)=  0.0200
+                       cart. coord. in units 2pi/alat
+        k(    1) = (   0.0000000   0.0000000   0.0000000), wk =   0.0625000
+        k(    2) = (   0.0000000   0.2848795   0.0000000), wk =   0.1250000
+        k(    3) = (   0.0000000  -0.5697590   0.0000000), wk =   0.0625000
+        k(    4) = (   0.2500000  -0.0078960   0.0000000), wk =   0.1250000
+        k(    5) = (   0.2500000   0.2769835   0.0000000), wk =   0.1250000
+        k(    6) = (   0.2500000  -0.5776550   0.0000000), wk =   0.1250000
+        k(    7) = (   0.2500000  -0.2927755   0.0000000), wk =   0.1250000
+        k(    8) = (  -0.5000000   0.0157920   0.0000000), wk =   0.0625000
+        k(    9) = (  -0.5000000   0.3006715   0.0000000), wk =   0.1250000
+        k(   10) = (  -0.5000000  -0.5539670   0.0000000), wk =   0.0625000
+
+     Dense  grid:  6730611 G-vectors     FFT dimensions: ( 160, 144, 625)
+
+     Smooth grid:  2379325 G-vectors     FFT dimensions: ( 120, 100, 432)
+
+     Estimated max dynamical RAM per process >       1.22 GB
+
+     Estimated total dynamical RAM >     117.08 GB
+     Generating pointlists ...
+     new r_m :   0.0663 (alat units)  1.4724 (a.u.) for type    1
+     new r_m :   0.0663 (alat units)  1.4724 (a.u.) for type    2
+     new r_m :   0.0385 (alat units)  0.8548 (a.u.) for type    3
+     new r_m :   0.0385 (alat units)  0.8548 (a.u.) for type    4
+     new r_m :   0.0485 (alat units)  1.0765 (a.u.) for type    5
+
+     Initial potential from superposition of free atoms
+
+     starting charge    1137.9851, renormalised to    1138.0000
+
+     negative rho (up, down):  2.794E-03 1.823E-03
+     Starting wfcs are  870 randomized atomic wfcs
+     Checking if some PAW data can be deallocated... 
+
+     total cpu time spent up to now is      141.5 secs
+
+     per-process dynamical memory:   132.8 Mb
+
+     Self-consistent Calculation
+
+     iteration #  1     ecut=    60.00 Ry     beta= 0.20
+     Davidson diagonalization with overlap
+     ethr =  1.00E-02,  avg # of iterations =  3.1
+
+     negative rho (up, down):  2.016E-03 1.464E-03
+
+     total cpu time spent up to now is      442.7 secs
+
+     total energy              =  -16563.20265448 Ry
+     estimated scf accuracy    <      96.91373014 Ry
+
+     total magnetization       =    79.03 Bohr mag/cell
+     absolute magnetization    =    84.56 Bohr mag/cell
+
+     iteration #  2     ecut=    60.00 Ry     beta= 0.20
+     Davidson diagonalization with overlap

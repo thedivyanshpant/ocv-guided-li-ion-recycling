@@ -1,0 +1,468 @@
+Loading modulefiles version 2021.11
+ Quantum Espresso v7.4 installed  with Intel OneAPI Compilers, MKL and MPI 
+ 
+srun: error: rpcn020: task 40: Killed
+srun: error: rpcn470: task 88: Killed
+srun: error: rpcn020: task 42: Killed
+srun: error: rpcn020: task 30: Killed
+srun: error: rpcn470: task 90: Killed
+srun: error: rpcn470: task 79: Killed
+srun: error: rpcn020: task 43: Killed
+srun: error: rpcn470: task 91: Killed
+srun: error: rpcn020: task 8: Killed
+srun: error: rpcn470: task 66: Killed
+srun: error: rpcn020: task 16: Killed
+srun: error: rpcn020: task 12: Killed
+srun: error: rpcn470: task 89: Killed
+srun: error: rpcn470: task 67: Killed
+srun: error: rpcn020: task 14: Killed
+srun: error: rpcn470: task 87: Killed
+srun: error: rpcn020: task 46: Killed
+srun: error: rpcn470: task 51: Killed
+srun: error: rpcn020: task 18: Killed
+srun: error: rpcn470: task 93: Killed
+srun: error: rpcn020: task 44: Killed
+srun: error: rpcn470: task 69: Killed
+srun: error: rpcn020: task 10: Killed
+srun: error: rpcn470: task 57: Killed
+srun: error: rpcn020: task 36: Killed
+srun: error: rpcn470: task 81: Killed
+srun: error: rpcn020: task 32: Killed
+srun: error: rpcn020: task 24: Killed
+srun: error: rpcn470: task 75: Killed
+srun: error: rpcn020: task 0: Killed
+srun: error: rpcn470: task 59: Killed
+srun: error: rpcn020: task 26: Killed
+srun: error: rpcn470: task 65: Killed
+srun: error: rpcn020: task 20: Killed
+srun: error: rpcn470: task 55: Killed
+srun: error: rpcn470: task 83: Killed
+srun: error: rpcn020: task 34: Killed
+srun: error: rpcn020: task 28: Killed
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+pw.x               00000000005E4216  Unknown               Unknown  Unknown
+pw.x               00000000005E3C45  Unknown               Unknown  Unknown
+pw.x               0000000000483839  Unknown               Unknown  Unknown
+pw.x               000000000054CEA7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F8C289C0D85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+pw.x               00000000005E4216  Unknown               Unknown  Unknown
+pw.x               00000000005E3C45  Unknown               Unknown  Unknown
+pw.x               0000000000483839  Unknown               Unknown  Unknown
+pw.x               000000000054CEA7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FE3EACCCD85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+srun: error: rpcn470: task 71: Killed
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+pw.x               0000000000C4A762  Unknown               Unknown  Unknown
+pw.x               0000000000659977  Unknown               Unknown  Unknown
+pw.x               00000000005E48C6  Unknown               Unknown  Unknown
+pw.x               00000000005E3C45  Unknown               Unknown  Unknown
+pw.x               0000000000483839  Unknown               Unknown  Unknown
+pw.x               000000000054CEA7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F23AFDB3D85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+srun: error: rpcn470: tasks 49,52-53,61-63,73,77,85,95: Exited with exit code 41
+pw.x               0000000000C4A762  Unknown               Unknown  Unknown
+pw.x               0000000000659977  Unknown               Unknown  Unknown
+pw.x               00000000005E48C6  Unknown               Unknown  Unknown
+pw.x               00000000005E3C45  Unknown               Unknown  Unknown
+pw.x               0000000000483839  Unknown               Unknown  Unknown
+pw.x               000000000054CEA7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F180A28FD85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+pw.x               0000000000C4A762  Unknown               Unknown  Unknown
+pw.x               0000000000659977  Unknown               Unknown  Unknown
+pw.x               00000000005E48C6  Unknown               Unknown  Unknown
+pw.x               00000000005E3C45  Unknown               Unknown  Unknown
+pw.x               0000000000483839  Unknown               Unknown  Unknown
+pw.x               000000000054CEA7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FBCFA670D85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+pw.x               0000000000C4A762  Unknown               Unknown  Unknown
+pw.x               0000000000659977  Unknown               Unknown  Unknown
+pw.x               00000000005E48C6  Unknown               Unknown  Unknown
+pw.x               00000000005E3C45  Unknown               Unknown  Unknown
+pw.x               0000000000483839  Unknown               Unknown  Unknown
+pw.x               000000000054CEA7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F72922D2D85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+pw.x               0000000000C4A762  Unknown               Unknown  Unknown
+pw.x               0000000000659977  Unknown               Unknown  Unknown
+pw.x               00000000005E48C6  Unknown               Unknown  Unknown
+pw.x               00000000005E3C45  Unknown               Unknown  Unknown
+pw.x               0000000000483839  Unknown               Unknown  Unknown
+pw.x               000000000054CEA7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F8EFFD84D85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+pw.x               0000000000C4A762  Unknown               Unknown  Unknown
+pw.x               0000000000659977  Unknown               Unknown  Unknown
+pw.x               00000000005E48C6  Unknown               Unknown  Unknown
+pw.x               00000000005E3C45  Unknown               Unknown  Unknown
+pw.x               0000000000483839  Unknown               Unknown  Unknown
+pw.x               000000000054CEA7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F5C92C0CD85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+pw.x               0000000000C4A762  Unknown               Unknown  Unknown
+pw.x               0000000000659977  Unknown               Unknown  Unknown
+pw.x               00000000005E48C6  Unknown               Unknown  Unknown
+pw.x               00000000005E3C45  Unknown               Unknown  Unknown
+pw.x               0000000000483839  Unknown               Unknown  Unknown
+pw.x               000000000054CEA7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F5D8623DD85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+pw.x               0000000000C4A762  Unknown               Unknown  Unknown
+pw.x               0000000000659977  Unknown               Unknown  Unknown
+pw.x               00000000005E48C6  Unknown               Unknown  Unknown
+pw.x               00000000005E3C45  Unknown               Unknown  Unknown
+pw.x               0000000000483839  Unknown               Unknown  Unknown
+pw.x               000000000054CEA7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F2354E1ED85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+srun: error: rpcn020: task 22: Killed
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+pw.x               00000000007D9987  Unknown               Unknown  Unknown
+pw.x               000000000074D9BB  Unknown               Unknown  Unknown
+pw.x               000000000074D372  Unknown               Unknown  Unknown
+pw.x               0000000000C4AABD  Unknown               Unknown  Unknown
+pw.x               0000000000659977  Unknown               Unknown  Unknown
+pw.x               00000000005E48C6  Unknown               Unknown  Unknown
+pw.x               00000000005E3C45  Unknown               Unknown  Unknown
+pw.x               0000000000483839  Unknown               Unknown  Unknown
+pw.x               000000000054CEA7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FAA97260D85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+pw.x               00000000007D9987  Unknown               Unknown  Unknown
+pw.x               000000000074D9BB  Unknown               Unknown  Unknown
+pw.x               000000000074D372  Unknown               Unknown  Unknown
+pw.x               0000000000C4AABD  Unknown               Unknown  Unknown
+pw.x               0000000000659977  Unknown               Unknown  Unknown
+pw.x               00000000005E48C6  Unknown               Unknown  Unknown
+pw.x               00000000005E3C45  Unknown               Unknown  Unknown
+pw.x               0000000000483839  Unknown               Unknown  Unknown
+pw.x               000000000054CEA7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F91DDEA1D85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+pw.x               00000000007D9987  Unknown               Unknown  Unknown
+pw.x               000000000074D9BB  Unknown               Unknown  Unknown
+pw.x               000000000074D372  Unknown               Unknown  Unknown
+pw.x               0000000000C4AABD  Unknown               Unknown  Unknown
+pw.x               0000000000659977  Unknown               Unknown  Unknown
+pw.x               00000000005E48C6  Unknown               Unknown  Unknown
+pw.x               00000000005E3C45  Unknown               Unknown  Unknown
+pw.x               0000000000483839  Unknown               Unknown  Unknown
+pw.x               000000000054CEA7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FCF79AE3D85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+srun: error: rpcn020: task 2: Killed
+srun: error: rpcn020: tasks 4,6,38: Exited with exit code 41
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+pw.x               0000000000CC9A2F  Unknown               Unknown  Unknown
+pw.x               0000000000CC8825  Unknown               Unknown  Unknown
+pw.x               000000000084E6EF  Unknown               Unknown  Unknown
+pw.x               00000000007D9C8F  Unknown               Unknown  Unknown
+pw.x               000000000074D9BB  Unknown               Unknown  Unknown
+pw.x               000000000074D372  Unknown               Unknown  Unknown
+pw.x               0000000000C4AABD  Unknown               Unknown  Unknown
+pw.x               0000000000659977  Unknown               Unknown  Unknown
+pw.x               00000000005E48C6  Unknown               Unknown  Unknown
+pw.x               00000000005E3C45  Unknown               Unknown  Unknown
+pw.x               0000000000483839  Unknown               Unknown  Unknown
+pw.x               000000000054CEA7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F8A21CAAD85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+pw.x               00000000007D9987  Unknown               Unknown  Unknown
+pw.x               000000000074D9BB  Unknown               Unknown  Unknown
+pw.x               000000000074D372  Unknown               Unknown  Unknown
+pw.x               0000000000C4AABD  Unknown               Unknown  Unknown
+pw.x               0000000000659977  Unknown               Unknown  Unknown
+pw.x               00000000005E48C6  Unknown               Unknown  Unknown
+pw.x               00000000005E3C45  Unknown               Unknown  Unknown
+pw.x               0000000000483839  Unknown               Unknown  Unknown
+pw.x               000000000054CEA7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F189C848D85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+pw.x               00000000007D9987  Unknown               Unknown  Unknown
+pw.x               000000000074D9BB  Unknown               Unknown  Unknown
+pw.x               000000000074D372  Unknown               Unknown  Unknown
+pw.x               0000000000C4AABD  Unknown               Unknown  Unknown
+pw.x               0000000000659977  Unknown               Unknown  Unknown
+pw.x               00000000005E48C6  Unknown               Unknown  Unknown
+pw.x               00000000005E3C45  Unknown               Unknown  Unknown
+pw.x               0000000000483839  Unknown               Unknown  Unknown
+pw.x               000000000054CEA7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FF646E0DD85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+pw.x               00000000007D9987  Unknown               Unknown  Unknown
+pw.x               000000000074D9BB  Unknown               Unknown  Unknown
+pw.x               000000000074D372  Unknown               Unknown  Unknown
+pw.x               0000000000C4AABD  Unknown               Unknown  Unknown
+pw.x               0000000000659977  Unknown               Unknown  Unknown
+pw.x               00000000005E48C6  Unknown               Unknown  Unknown
+pw.x               00000000005E3C45  Unknown               Unknown  Unknown
+pw.x               0000000000483839  Unknown               Unknown  Unknown
+pw.x               000000000054CEA7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FD2FB5FAD85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+pw.x               00000000007D9987  Unknown               Unknown  Unknown
+pw.x               000000000074D9BB  Unknown               Unknown  Unknown
+pw.x               000000000074D372  Unknown               Unknown  Unknown
+pw.x               0000000000C4AABD  Unknown               Unknown  Unknown
+pw.x               0000000000659977  Unknown               Unknown  Unknown
+pw.x               00000000005E48C6  Unknown               Unknown  Unknown
+pw.x               00000000005E3C45  Unknown               Unknown  Unknown
+pw.x               0000000000483839  Unknown               Unknown  Unknown
+pw.x               000000000054CEA7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FBE488E5D85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+srun: error: rpcn020: task 41: Killed
+srun: error: rpcn020: tasks 11,19,21,29,31: Exited with exit code 41
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+pw.x               0000000000C4A762  Unknown               Unknown  Unknown
+pw.x               0000000000659977  Unknown               Unknown  Unknown
+pw.x               00000000005E48C6  Unknown               Unknown  Unknown
+pw.x               00000000005E3C45  Unknown               Unknown  Unknown
+pw.x               0000000000483839  Unknown               Unknown  Unknown
+pw.x               000000000054CEA7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F6902EF2D85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+pw.x               0000000000C4A762  Unknown               Unknown  Unknown
+pw.x               0000000000659977  Unknown               Unknown  Unknown
+pw.x               00000000005E48C6  Unknown               Unknown  Unknown
+pw.x               00000000005E3C45  Unknown               Unknown  Unknown
+pw.x               0000000000483839  Unknown               Unknown  Unknown
+pw.x               000000000054CEA7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F922E3C5D85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+pw.x               0000000000C4A762  Unknown               Unknown  Unknown
+pw.x               0000000000659977  Unknown               Unknown  Unknown
+pw.x               00000000005E48C6  Unknown               Unknown  Unknown
+pw.x               00000000005E3C45  Unknown               Unknown  Unknown
+pw.x               0000000000483839  Unknown               Unknown  Unknown
+pw.x               000000000054CEA7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F1D8DEF3D85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+pw.x               0000000000C4A762  Unknown               Unknown  Unknown
+pw.x               0000000000659977  Unknown               Unknown  Unknown
+pw.x               00000000005E48C6  Unknown               Unknown  Unknown
+pw.x               00000000005E3C45  Unknown               Unknown  Unknown
+pw.x               0000000000483839  Unknown               Unknown  Unknown
+pw.x               000000000054CEA7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F8FE0936D85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+srun: error: rpcn470: task 68: Killed
+srun: error: rpcn470: tasks 48,78,80,82: Exited with exit code 41
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+pw.x               00000000005E4216  Unknown               Unknown  Unknown
+pw.x               00000000005E3C45  Unknown               Unknown  Unknown
+pw.x               0000000000483839  Unknown               Unknown  Unknown
+pw.x               000000000054CEA7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FA3CECEDD85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+pw.x               0000000000C4A762  Unknown               Unknown  Unknown
+pw.x               0000000000659977  Unknown               Unknown  Unknown
+pw.x               00000000005E48C6  Unknown               Unknown  Unknown
+pw.x               00000000005E3C45  Unknown               Unknown  Unknown
+pw.x               0000000000483839  Unknown               Unknown  Unknown
+pw.x               000000000054CEA7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F356475CD85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+pw.x               0000000000C4A762  Unknown               Unknown  Unknown
+pw.x               0000000000659977  Unknown               Unknown  Unknown
+pw.x               00000000005E48C6  Unknown               Unknown  Unknown
+pw.x               00000000005E3C45  Unknown               Unknown  Unknown
+pw.x               0000000000483839  Unknown               Unknown  Unknown
+pw.x               000000000054CEA7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FB8382EAD85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+srun: error: rpcn020: task 47: Exited with exit code 41
+srun: error: rpcn020: tasks 15,45: Exited with exit code 41
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+pw.x               0000000000C4A762  Unknown               Unknown  Unknown
+pw.x               0000000000659977  Unknown               Unknown  Unknown
+pw.x               00000000005E48C6  Unknown               Unknown  Unknown
+pw.x               00000000005E3C45  Unknown               Unknown  Unknown
+pw.x               0000000000483839  Unknown               Unknown  Unknown
+pw.x               000000000054CEA7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F2E5CF96D85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+pw.x               0000000000C4A762  Unknown               Unknown  Unknown
+pw.x               0000000000659977  Unknown               Unknown  Unknown
+pw.x               00000000005E48C6  Unknown               Unknown  Unknown
+pw.x               00000000005E3C45  Unknown               Unknown  Unknown
+pw.x               0000000000483839  Unknown               Unknown  Unknown
+pw.x               000000000054CEA7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F071ACA9D85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+srun: error: rpcn020: task 33: Killed
+srun: error: rpcn020: tasks 5,13: Exited with exit code 41
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+pw.x               0000000000C4A762  Unknown               Unknown  Unknown
+pw.x               0000000000659977  Unknown               Unknown  Unknown
+pw.x               00000000005E48C6  Unknown               Unknown  Unknown
+pw.x               00000000005E3C45  Unknown               Unknown  Unknown
+pw.x               0000000000483839  Unknown               Unknown  Unknown
+pw.x               000000000054CEA7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FB6D6AC7D85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+pw.x               0000000000C4A762  Unknown               Unknown  Unknown
+pw.x               0000000000659977  Unknown               Unknown  Unknown
+pw.x               00000000005E48C6  Unknown               Unknown  Unknown
+pw.x               00000000005E3C45  Unknown               Unknown  Unknown
+pw.x               0000000000483839  Unknown               Unknown  Unknown
+pw.x               000000000054CEA7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FAA1F60BD85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+pw.x               0000000000C4A762  Unknown               Unknown  Unknown
+pw.x               0000000000659977  Unknown               Unknown  Unknown
+pw.x               00000000005E48C6  Unknown               Unknown  Unknown
+pw.x               00000000005E3C45  Unknown               Unknown  Unknown
+pw.x               0000000000483839  Unknown               Unknown  Unknown
+pw.x               000000000054CEA7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F8B60234D85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+pw.x               0000000000C4A762  Unknown               Unknown  Unknown
+pw.x               0000000000659977  Unknown               Unknown  Unknown
+pw.x               00000000005E48C6  Unknown               Unknown  Unknown
+pw.x               00000000005E3C45  Unknown               Unknown  Unknown
+pw.x               0000000000483839  Unknown               Unknown  Unknown
+pw.x               000000000054CEA7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FC965C79D85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+srun: error: rpcn470: task 72: Killed
+srun: error: rpcn470: tasks 56,58,60,84: Exited with exit code 41
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+pw.x               0000000000C4A762  Unknown               Unknown  Unknown
+pw.x               0000000000659977  Unknown               Unknown  Unknown
+pw.x               00000000005E48C6  Unknown               Unknown  Unknown
+pw.x               00000000005E3C45  Unknown               Unknown  Unknown
+pw.x               0000000000483839  Unknown               Unknown  Unknown
+pw.x               000000000054CEA7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F4EF1D4FD85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+srun: error: rpcn020: task 35: Exited with exit code 41
+srun: error: rpcn020: task 3: Killed
+srun: error: rpcn020: task 37: Killed
+srun: error: rpcn470: task 64: Killed
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 588817.0 ON rpcn020 CANCELLED AT 2026-07-21T23:51:35 ***
+slurmstepd: error: *** JOB 588817 ON rpcn020 CANCELLED AT 2026-07-21T23:51:35 ***

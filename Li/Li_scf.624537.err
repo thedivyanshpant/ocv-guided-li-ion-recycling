@@ -1,0 +1,12 @@
+Loading modulefiles version 2021.11
+ Quantum Espresso v7.4 installed  with Intel OneAPI Compilers, MKL and MPI 
+ 
+Abort(1) on node 2 (rank 2 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 2
+Abort(1) on node 13 (rank 13 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 13
+Abort(1) on node 18 (rank 18 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 18
+Abort(1) on node 26 (rank 26 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 26
+Abort(1) on node 45 (rank 45 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 45
+Abort(1) on node 67 (rank 67 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 67
+Abort(1) on node 79 (rank 79 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 79
+Abort(1) on node 84 (rank 84 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 84
+Abort(1) on node 40 (rank 40 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 40

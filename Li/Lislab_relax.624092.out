@@ -1,0 +1,38 @@
+==========================================
+SLURM_CLUSTER_NAME = paramprabha
+SLURM_JOB_ACCOUNT = iuac
+SLURM_JOB_ID = 624092
+SLURM_JOB_NAME = Lislab_relax
+SLURM_JOB_NODELIST = rpcn[510-511]
+SLURM_JOB_USER = deepanthpcu
+SLURM_JOB_UID = 52588
+SLURM_JOB_PARTITION = standard
+SLURM_TASK_PID = 275396
+SLURM_SUBMIT_DIR = /home/deepanthpcu/DFT/Battery/Li
+SLURM_CPUS_ON_NODE = 48
+SLURM_NTASKS = 96
+SLURM_TASK_PID = 275396
+==========================================
+=========================================
+Job ID      : 624092
+Nodes       : rpcn[510-511]
+Tasks       : 96
+Working Dir : /home/deepanthpcu/DFT/Battery/Li
+Start Time  : Sun Aug 30 11:03:12 IST 2026
+=========================================
+
+Currently Loaded Modules:
+  1) compiler/oneapi2024/tbb/2021.11
+  2) compiler/oneapi2024/compiler-rt/2024.0.2
+  3) compiler/oneapi2024/oclfpga/2024.0.0
+  4) compiler/oneapi2024/compiler/2024.0.2
+  5) compiler/oneapi2024/mkl/2024.0
+  6) compiler/oneapi2024/mpi/2021.11
+  7) apps/quantum-espresso/qe-7.4-intel
+
+ 
+
+/home/apps/SourceApps/qe/qe-intel-7.4/bin/pw.x
+=========================================
+Finished : Sun Aug 30 12:16:57 IST 2026
+=========================================

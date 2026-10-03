@@ -1,0 +1,79 @@
+==========================================
+SLURM_CLUSTER_NAME = paramprabha
+SLURM_JOB_ACCOUNT = iuac
+SLURM_JOB_ID = 642909
+SLURM_JOB_NAME = CuO_PVDF_scf
+SLURM_JOB_NODELIST = rpcn[395,397-399]
+SLURM_JOB_USER = deepanthpcu
+SLURM_JOB_UID = 52588
+SLURM_JOB_PARTITION = standard
+SLURM_TASK_PID = 3545668
+SLURM_SUBMIT_DIR = /home/deepanthpcu/DFT/Battery/CuO_pvdf
+SLURM_CPUS_ON_NODE = 48
+SLURM_NTASKS = 192
+SLURM_TASK_PID = 3545668
+==========================================
+======================================
+Job ID      : 642906
+Nodes       : 4
+MPI Tasks   : 192
+Directory   : /home/deepanthpcu/DFT/Battery/CuO_pvdf
+Started at  : Tue Sep  8 21:30:04 IST 2026
+======================================
+Node list:
+rpcn133
+rpcn134
+rpcn135
+rpcn136
+
+Loaded modules:
+
+Currently Loaded Modules:
+  1) compiler/oneapi2024/tbb/2021.11
+  2) compiler/oneapi2024/compiler-rt/2024.0.2
+  3) compiler/oneapi2024/oclfpga/2024.0.0
+  4) compiler/oneapi2024/compiler/2024.0.2
+  5) compiler/oneapi2024/mkl/2024.0
+  6) compiler/oneapi2024/mpi/2021.11
+  7) apps/quantum-espresso/qe-7.4-intel
+
+ 
+
+
+Quantum ESPRESSO:
+/home/apps/SourceApps/qe/qe-intel-7.4/bin/pw.x
+======================================
+Job ID      : 642909
+Nodes       : 4
+MPI Tasks   : 192
+Directory   : /home/deepanthpcu/DFT/Battery/CuO_pvdf
+Started at  : Tue Sep  8 21:30:05 IST 2026
+======================================
+Node list:
+rpcn395
+rpcn397
+rpcn398
+rpcn399
+
+Loaded modules:
+
+Currently Loaded Modules:
+  1) compiler/oneapi2024/tbb/2021.11
+  2) compiler/oneapi2024/compiler-rt/2024.0.2
+  3) compiler/oneapi2024/oclfpga/2024.0.0
+  4) compiler/oneapi2024/compiler/2024.0.2
+  5) compiler/oneapi2024/mkl/2024.0
+  6) compiler/oneapi2024/mpi/2021.11
+  7) apps/quantum-espresso/qe-7.4-intel
+
+ 
+
+
+Quantum ESPRESSO:
+/home/apps/SourceApps/qe/qe-intel-7.4/bin/pw.x
+======================================
+Finished at Tue Sep  8 21:30:42 IST 2026
+======================================
+======================================
+Finished at Wed Sep  9 18:53:47 IST 2026
+======================================

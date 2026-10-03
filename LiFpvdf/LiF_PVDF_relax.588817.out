@@ -1,0 +1,32 @@
+==========================================
+SLURM_CLUSTER_NAME = paramprabha
+SLURM_JOB_ACCOUNT = iuac
+SLURM_JOB_ID = 588817
+SLURM_JOB_NAME = LiF_PVDF_relax
+SLURM_JOB_NODELIST = rpcn[020,470]
+SLURM_JOB_USER = deepanthpcu
+SLURM_JOB_UID = 52588
+SLURM_JOB_PARTITION = standard
+SLURM_TASK_PID = 3015346
+SLURM_SUBMIT_DIR = /home/deepanthpcu/DFT/Battery/LiFpvdf
+SLURM_CPUS_ON_NODE = 48
+SLURM_NTASKS = 96
+SLURM_TASK_PID = 3015346
+==========================================
+========================================
+Job started on Tue Jul 21 23:19:37 IST 2026
+Running on host: rpcn020
+========================================
+
+Currently Loaded Modules:
+  1) compiler/oneapi2024/tbb/2021.11
+  2) compiler/oneapi2024/compiler-rt/2024.0.2
+  3) compiler/oneapi2024/oclfpga/2024.0.0
+  4) compiler/oneapi2024/compiler/2024.0.2
+  5) compiler/oneapi2024/mkl/2024.0
+  6) compiler/oneapi2024/mpi/2021.11
+  7) apps/quantum-espresso/qe-7.4-intel
+
+ 
+
+/home/apps/SourceApps/qe/qe-intel-7.4/bin/pw.x

@@ -1,0 +1,20 @@
+Loading modulefiles version 2021.11
+ Quantum Espresso v7.4 installed  with Intel OneAPI Compilers, MKL and MPI 
+ 
+forrtl: Disk quota exceeded
+forrtl: severe (38): error during write, unit 4, file /home/deepanthpcu/DFT/Battery/LiCoO2/./tmp/LiCoO2cell/LiCoO2cell.save/wfcdw4.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000E3F13B  Unknown               Unknown  Unknown
+pw.x               0000000000E3C7D9  Unknown               Unknown  Unknown
+pw.x               00000000008D7511  Unknown               Unknown  Unknown
+pw.x               0000000000516F8B  Unknown               Unknown  Unknown
+pw.x               000000000050CA52  Unknown               Unknown  Unknown
+pw.x               000000000054D3F7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007F77EA711D85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+[mpiexec@rpcn237] HYD_sock_write (../../../../../src/pm/i_hydra/libhydra/sock/hydra_sock_intel.c:362): write error (Disk quota exceeded)
+[mpiexec@rpcn237] splice_cb (../../../../../src/pm/i_hydra/libhydra/demux/hydra_demux_splice.c:134): error writing to fd
+[mpiexec@rpcn237] HYDI_dmx_poll_wait_for_event (../../../../../src/pm/i_hydra/libhydra/demux/hydra_demux_poll.c:78): callback returned error status
+[mpiexec@rpcn237] main (../../../../../src/pm/i_hydra/mpiexec/mpiexec.c:1970): error waiting for event

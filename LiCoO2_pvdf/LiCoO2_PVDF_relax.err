@@ -1,0 +1,4 @@
+Loading modulefiles version 2021.11
+ Quantum Espresso v7.4 installed  with Intel OneAPI Compilers, MKL and MPI 
+ 
+/var/share/slurm/d/job590535/slurm_script: line 19: cd: /home/deepanthpcu/DFT/Battery/LiCoO2: No such file or directory

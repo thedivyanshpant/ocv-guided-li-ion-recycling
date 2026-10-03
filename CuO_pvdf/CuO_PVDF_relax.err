@@ -1,0 +1,6 @@
+Loading modulefiles version 2021.11
+ Quantum Espresso v7.4 installed  with Intel OneAPI Compilers, MKL and MPI 
+ 
+slurmstepd: error: *** JOB 631540 ON rpcn042 CANCELLED AT 2026-09-07T00:05:42 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 631540.0 ON rpcn042 CANCELLED AT 2026-09-07T00:05:42 DUE TO TIME LIMIT ***

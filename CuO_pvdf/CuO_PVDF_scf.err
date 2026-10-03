@@ -1,0 +1,55 @@
+Loading modulefiles version 2021.11
+ Quantum Espresso v7.4 installed  with Intel OneAPI Compilers, MKL and MPI 
+ 
+Loading modulefiles version 2021.11
+ Quantum Espresso v7.4 installed  with Intel OneAPI Compilers, MKL and MPI 
+ 
+[rpcn397:3428595:0:3428595]       ud_ep.c:280  Fatal: UD endpoint 0x453e430 to <no debug data>: unhandled timeout error
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  00007FA231061CF0  Unknown               Unknown  Unknown
+libc-2.28.so       00007FA230CD8ACF  gsignal               Unknown  Unknown
+libc-2.28.so       00007FA230CABEA5  abort                 Unknown  Unknown
+libucs.so.0.0.0    00007FA22E0CA6E6  Unknown               Unknown  Unknown
+libucs.so.0.0.0    00007FA22E0CA7FF  ucs_fatal_error_f     Unknown  Unknown
+libuct_ib.so.0.0.  00007FA22DA06B10  Unknown               Unknown  Unknown
+libucs.so.0.0.0    00007FA22E0C181D  Unknown               Unknown  Unknown
+libucs.so.0.0.0    00007FA22E0C1952  Unknown               Unknown  Unknown
+libucp.so.0.0.0    00007FA22E69CB3A  ucp_worker_progre     Unknown  Unknown
+libmlx-fi.so       00007FA22E93EBB1  Unknown               Unknown  Unknown
+libmlx-fi.so       00007FA22E959ACD  Unknown               Unknown  Unknown
+libmlx-fi.so       00007FA22E958CA2  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00007FA231BF95BF  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00007FA2317962A5  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00007FA231D2DC61  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00007FA231934C47  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00007FA23192FF67  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00007FA2315796FA  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00007FA231577480  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00007FA231AC0C03  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00007FA231BE9A9C  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00007FA23179360A  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00007FA231A5ACA7  PMPI_Init_thread      Unknown  Unknown
+libmpifort.so.12.  00007FA23309475C  pmpi_init_thread_     Unknown  Unknown
+pw.x               000000000086FF00  Unknown               Unknown  Unknown
+pw.x               000000000086F9F7  Unknown               Unknown  Unknown
+pw.x               0000000000409BF3  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FA230CC4D85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+forrtl: Disk quota exceeded
+forrtl: severe (38): error during write, unit 4, file /home/deepanthpcu/DFT/Battery/CuO_pvdf/./tmp/CuO_PVDF/CuO_PVDF.save/wfcdw3.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000E3F13B  Unknown               Unknown  Unknown
+pw.x               0000000000E3C7D9  Unknown               Unknown  Unknown
+pw.x               00000000008D7511  Unknown               Unknown  Unknown
+pw.x               0000000000516F8B  Unknown               Unknown  Unknown
+pw.x               000000000050CA52  Unknown               Unknown  Unknown
+pw.x               000000000054D3F7  Unknown               Unknown  Unknown
+pw.x               0000000000409D8B  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FF0888F1D85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown
+[mpiexec@rpcn133] HYD_sock_write (../../../../../src/pm/i_hydra/libhydra/sock/hydra_sock_intel.c:362): write error (Disk quota exceeded)
+[mpiexec@rpcn133] splice_cb (../../../../../src/pm/i_hydra/libhydra/demux/hydra_demux_splice.c:134): error writing to fd
+[mpiexec@rpcn133] HYDI_dmx_poll_wait_for_event (../../../../../src/pm/i_hyd

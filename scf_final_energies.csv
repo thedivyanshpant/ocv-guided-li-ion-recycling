@@ -1,0 +1,21 @@
+SCF_File,Final_Energy_Ry,Check,ExtraInfo
+./Alslab/archive/al111_scf.out,-3159.35069322,ok,
+./Alslab/Al_pvdf/SCF/al_pvdf_scf.out,-3434.73386281,ok,
+./CuO_pvdf/CuO_PVDF_scf.out,-16575.12927324,ok,
+./LiMnO2/Relax/limno2_scf.out,-927.55784445,ok,base structure
+./LiMnO2/SuperLi/limno2_li11_scf.out,-3694.91784061,ok,
+./LiMnO2/Super/limno2_super_scf.out,-3709.49800609,ok,
+./LiMnO2/Li/li_bulk_scf.out,-28.94414624,ok,base structure
+./LiCoO2/LiCoO2_scf/LiCoO2cell_scf.out,-9270.13517519,ok,
+./CuO/cuo_slab_scf.out,-16299.69992016,ok,
+./Li_pvdf/Li_PVDF_scf.out,-1807.54700242,ok,
+./PVDF_QErepo/pvdf_scf.out,-275.38045991,ok,
+./Al2O3_pvdf/al2o3_pvdf_scf.out,-5186.33054062,ok,
+./LiFpvdf/LiF_PVDF_scf.out,-4345.71255848,ok,
+./LiF/LiFcell_scf.out,-4093.25745706,ok,
+./Al2O3/Scf/al2o3_scf.out,-4910.94279239,ok,
+./LiCoO2_pvdf/LiCoO2_PVDF_scf.out,-9522.59640499,ok,
+./Li/Lislab_scf.out,-1555.07839316,ok,main
+./PVDF_pusdodojo/pvdf_scf.out,-252.45339069,ok,
+./Cuslab/Cu_PVDF/cu_pvdf_scf.out,-17322.00547607,ok,
+./Cuslab/Cu_relax/cu111_scf.out,-17046.62490132,ok,

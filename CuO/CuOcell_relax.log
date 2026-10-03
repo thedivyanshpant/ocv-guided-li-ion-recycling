@@ -1,0 +1,45 @@
+==========================================
+SLURM_CLUSTER_NAME = paramprabha
+SLURM_JOB_ACCOUNT = iuac
+SLURM_JOB_ID = 609942
+SLURM_JOB_NAME = CuO_relax
+SLURM_JOB_NODELIST = rpcn[361-362]
+SLURM_JOB_USER = deepanthpcu
+SLURM_JOB_UID = 52588
+SLURM_JOB_PARTITION = standard
+SLURM_TASK_PID = 3042793
+SLURM_SUBMIT_DIR = /home/deepanthpcu/DFT/Battery/CuO
+SLURM_CPUS_ON_NODE = 48
+SLURM_NTASKS = 96
+SLURM_TASK_PID = 3042793
+==========================================
+======================================
+Job ID      : 609942
+Nodes       : 2
+MPI Tasks   : 96
+Directory   : /home/deepanthpcu/DFT/Battery/CuO
+Started at  : Fri Aug 21 01:07:14 IST 2026
+======================================
+Node list:
+rpcn361
+rpcn362
+
+Loaded modules:
+
+Currently Loaded Modules:
+  1) compiler/oneapi2024/tbb/2021.11
+  2) compiler/oneapi2024/compiler-rt/2024.0.2
+  3) compiler/oneapi2024/oclfpga/2024.0.0
+  4) compiler/oneapi2024/compiler/2024.0.2
+  5) compiler/oneapi2024/mkl/2024.0
+  6) compiler/oneapi2024/mpi/2021.11
+  7) apps/quantum-espresso/qe-7.4-intel
+
+ 
+
+
+Quantum ESPRESSO:
+/home/apps/SourceApps/qe/qe-intel-7.4/bin/pw.x
+======================================
+Finished at Fri Aug 21 01:08:05 IST 2026
+======================================

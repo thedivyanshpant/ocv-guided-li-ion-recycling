@@ -1,0 +1,36 @@
+Loading modulefiles version 2021.11
+ Quantum Espresso v7.4 installed  with Intel OneAPI Compilers, MKL and MPI 
+ 
+[rpcn396:3018967:0:3018967]       ud_ep.c:280  Fatal: UD endpoint 0x7fc7c8003250 to <no debug data>: unhandled timeout error
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+libpthread-2.28.s  00007FC7D5F1DCF0  Unknown               Unknown  Unknown
+libc-2.28.so       00007FC7D5B94ACF  gsignal               Unknown  Unknown
+libc-2.28.so       00007FC7D5B67EA5  abort                 Unknown  Unknown
+libucs.so.0.0.0    00007FC7D2F866E6  Unknown               Unknown  Unknown
+libucs.so.0.0.0    00007FC7D2F867FF  ucs_fatal_error_f     Unknown  Unknown
+libuct_ib.so.0.0.  00007FC7D28C2B10  Unknown               Unknown  Unknown
+libucs.so.0.0.0    00007FC7D2F7D81D  Unknown               Unknown  Unknown
+libucs.so.0.0.0    00007FC7D2F7D952  Unknown               Unknown  Unknown
+libucp.so.0.0.0    00007FC7D3558B3A  ucp_worker_progre     Unknown  Unknown
+libmlx-fi.so       00007FC7D37FABB1  Unknown               Unknown  Unknown
+libmlx-fi.so       00007FC7D3815ACD  Unknown               Unknown  Unknown
+libmlx-fi.so       00007FC7D3814CA2  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00007FC7D6AB55BF  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00007FC7D66522A5  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00007FC7D6BE9C61  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00007FC7D67F0C47  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00007FC7D67EBF67  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00007FC7D64356FA  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00007FC7D6433480  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00007FC7D697CC03  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00007FC7D6AA5A9C  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00007FC7D664F60A  Unknown               Unknown  Unknown
+libmpi.so.12.0.0   00007FC7D6916CA7  PMPI_Init_thread      Unknown  Unknown
+libmpifort.so.12.  00007FC7D7F5075C  pmpi_init_thread_     Unknown  Unknown
+pw.x               000000000086FF00  Unknown               Unknown  Unknown
+pw.x               000000000086F9F7  Unknown               Unknown  Unknown
+pw.x               0000000000409BF3  Unknown               Unknown  Unknown
+pw.x               0000000000409B9D  Unknown               Unknown  Unknown
+libc-2.28.so       00007FC7D5B80D85  __libc_start_main     Unknown  Unknown
+pw.x               0000000000409ABE  Unknown               Unknown  Unknown

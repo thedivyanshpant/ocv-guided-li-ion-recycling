@@ -1,0 +1,70 @@
+&CONTROL
+   calculation      = 'vc-relax'
+   verbosity        = 'high'
+   tstress          = .true.
+   tprnfor          = .true.
+   outdir           = './tmp/'
+   prefix           = 'limno2'
+   pseudo_dir       = './pseudo/'
+/
+
+&SYSTEM
+   ibrav            = 0
+   nat              = 12
+   ntyp             = 3
+
+   ecutwfc          = 60
+   ecutrho          = 480
+
+   occupations      = 'fixed'
+
+   nspin            = 2
+   starting_magnetization(1) = 0.0
+   starting_magnetization(2) = 0.5
+   starting_magnetization(3) = 0.0
+/
+
+&ELECTRONS
+   electron_maxstep = 500
+   conv_thr         = 1.0d-8
+   mixing_beta      = 0.30
+/
+
+&IONS
+   ion_dynamics     = 'bfgs'
+/
+
+&CELL
+   cell_dynamics    = 'bfgs'
+/
+
+ATOMIC_SPECIES
+Li  6.94      li_pbe_v1.4.uspp.F.UPF
+Mn  54.938044 mn_pbe_v1.5.uspp.F.UPF
+O   15.999    O.pbe-n-kjpaw_psl.0.1.UPF
+
+K_POINTS automatic
+6 6 3 0 0 0
+
+CELL_PARAMETERS angstrom
+3.02223454000000 0.00000000000000 0.00000000000000
+-1.51111727000000 2.61733188783478 0.00000000000000
+0.00000000000000 0.00000000000000 14.65015414000000
+
+HUBBARD (ortho-atomic)
+U Mn-3d 3.9
+
+ATOMIC_POSITIONS angstrom
+Li  -0.0000000151 1.7448879339 2.4416924055
+Li  0.0000000000 0.0000000000 7.3250770700
+Li  1.5111172851 0.8724439539 12.2084617345
+Mn  0.0000000000 0.0000000000 0.0000000000
+Mn  1.5111172851 0.8724439539 4.8833846645
+Mn  -0.0000000151 1.7448879339 9.7667694755
+O  0.0000000000 0.0000000000 3.7735867034
+O  1.5111172851 0.8724439539 1.1097979611
+O  1.5111172851 0.8724439539 8.6569713679
+O  -0.0000000151 1.7448879339 5.9931827721
+O  -0.0000000151 1.7448879339 13.5403561789
+O  0.0000000000 0.0000000000 10.8765674366
+
